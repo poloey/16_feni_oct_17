@@ -145,3 +145,8 @@ Use Tofael\HelloWorld\Filename;
 
 ~~~
 
+# to create a mini php server
+~~~
+php -S localhost:8000
+~~~
+Here `8000` is port number. You can use 4 digit number
