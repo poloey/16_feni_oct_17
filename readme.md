@@ -11,7 +11,8 @@ Only 2 things you have to remember
 * In browser you can access tanim by `http://localhost/tanim` address.
 
 # programming 101 with php (total 7 things have to consider)
-In [class 10](https://github.com/poloey/10_feni_oct_2) we have learned programming basic using javascript. Today I have described programming basic using php. all programming more or less same. So if you became master in one you will be master at any language by practicing one month. 7 things in php are (`variable`, `constant`, `datatype`, `control flow`, `function`, `operator`, `namespace`). Only 2 new things you will know apart fom javaScript. one is `constant` and another is `namespace`
+In [class 10](https://github.com/poloey/10_feni_oct_2) we have learned programming basic using javascript. Today I have described programming basic using php. All programming more or less same. So if you became master in one, you will be master at any language by practicing about one month. 7 things in php are (`variable`, `constant`, `datatype`, `control flow`, `function`, `operator`, `namespace`). Only 2 new things you will know apart fom javaScript. one is `constant` and another is `namespace`
+
 1. Variable     
 In php variable will start with `$` sign
 ~~~php
