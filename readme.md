@@ -145,8 +145,24 @@ Use Tofael\HelloWorld\Filename;
 
 ~~~
 
+# Basic php tag
+~~~
+<?php ?>
+~~~
+so php start tag is `<?php` and end tag is `?>`     
+
 # to create a mini php server
 ~~~
 php -S localhost:8000
 ~~~
 Here `8000` is port number. You can use 4 digit number
+
+
+# to write something in php
+
+~~~php
+echo 'Hello Tanim';
+//or
+print ('Hello tanim')
+
+~~~
