@@ -166,3 +166,38 @@ echo 'Hello Tanim';
 print ('Hello tanim')
 
 ~~~
+# difference between php and js
+When we use some key value in ja we use `:`. Therefore in php it will be `=>`      
+~~~
+//js
+key: value,
+key: value
+
+//php
+key => value,
+key => value
+~~~
+
+
+In `js`, we getting value from object by `.` notation. In `php`, we will getting value by `->` notation.
+
+~~~
+//js
+object.name;
+
+//php
+$object->name;
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
