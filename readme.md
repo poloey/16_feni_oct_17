@@ -13,6 +13,7 @@ Only 2 things you have to remember
 # programming 101 with php (total 7 things have to consider)
 In [class 10](https://github.com/poloey/10_feni_oct_2) we have learned programming basic using javascript. Today I have described programming basic using php. All programming more or less same. So if you became master in one, you will be master at any language by practicing about one month. 7 things in php are (`variable`, `constant`, `datatype`, `control flow`, `function`, `operator`, `namespace`). Only 2 new things you will know apart fom javaScript. one is `constant` and another is `namespace`
 
+
 1. Variable     
 In php variable will start with `$` sign
 ~~~php
@@ -47,6 +48,11 @@ const SOME_CONSTANT_NAME = sumon;
     ~~~
     * Object     
       In php, object will get by instantiating a class. to get object we use `new` keyword. A `variable` inside class called `properties`. A `function` inside class called `Method`. 
+      ~~~php
+      $today = new Date();
+      $today->someProperties.
+      $today->someMethod().
+      ~~~
       In php, working with object called object oriented programming. Object oriented programming has 5 features. `Encapsulation`, `Inheritance`, `polymorphism`, `overriding`, `overloading`     
       * `Encapsulation`: For encapsulation we use 3 visibility filter for class properties.  `public`, `private`, `protected`. When we use `public` we can access class properties or method from anywhere.  When we use `private` we only able to use class properties or method from inside class. When we use `protected` we can use class properties from own class and child class.
       * `Inheritance`:  When I need to share functionality between more class we use `inheritance`. In this case one class will be parent class. One class will be child class. child class `extends` parent class. I can extends only one parent class.
