@@ -4,7 +4,7 @@
 ~Learn~ Practice php from [w3schools](https://www.w3schools.com/php/php_intro.asp) till topic [Super Globals](https://www.w3schools.com/php/php_superglobals.asp)
 
 # Php Introduction    
-Our browser only know `html`, `css`, `js`. So whenever I write something in php, those `php` code should converted into `html`. So that browser can render our page. So in order write php you need `php` and a server in your pc. There are 2 popular server for php development `apache` & `ngnix`. In php version 7 we can create a mini server. Although in production we won't use php mini server. We will use apache or ngnix.      
+Our browser only know `html`, `css`, `js`. So whenever I write something in php, those `php` code should converted into `html`. So that browser can render our page. So in order write php, you need `php` and a server in your pc. There are 2 popular server for php development `apache` & `ngnix`. In php version 7 we can create a mini server. Although in production we won't use php mini server. We will use apache or ngnix.      
 So we will use a package called xampp. Which actually a package of php & apache. Its easy to use and no need any configuration. We will just install xampp. And keep php project inside `htdocs` folder. In our browser  we will access those file by `localhost/YourFolder`.    
 Only 2 things you have to remember
 * You will keep your php file in `xampp > htdocs > tanim` folder
