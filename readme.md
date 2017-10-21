@@ -4,8 +4,8 @@
 ~Learn~ Practice php from [w3schools](https://www.w3schools.com/php/php_intro.asp) till topic [Super Globals](https://www.w3schools.com/php/php_superglobals.asp)
 
 # Php Introduction    
-Our browser only know `html`, `css`, `js`. So whenever I write something in php, those `php` code should converted into `html`. So that browser can render our page. So in order write php, you need `php` and a server in your pc. There are 2 popular server for php development `apache` & `ngnix`. In php version 7 we can create a mini server. Although in production we won't use php mini server. We will use apache or ngnix.      
-So we will use a package called [xampp](https://www.apachefriends.org/index.html). Which actually a package of php & apache. Its easy to use and no need any configuration. We will just install xampp. And keep php project inside `htdocs` folder. In our browser  we will access those file by `localhost/YourFolder`.    
+Our browser only know `html`, `css`, `js`. So whenever I write something in php, those `php` code should converted into `html`. So that browser can render our page. So in order write php, you need `php` and a server in your pc. There are 2 popular server for php development `apache` and `ngnix`. In php version 7 we can create a mini server. Although in production we won't use php mini server. We will use apache or ngnix.      
+So we will use a package called [xampp](https://www.apachefriends.org/index.html). Which actually a package of php and apache. Its easy to use and no need any configuration. We will just install xampp. And keep php project inside `htdocs` folder. In our browser  we will access those file by `localhost/YourFolder`.    
 Only 2 things you have to remember
 * You will keep your php file in `xampp > htdocs > tanim` folder
 * In browser you can access tanim by `http://localhost/tanim` address.
@@ -38,7 +38,7 @@ const SOME_CONSTANT_NAME = sumon;
       * Associative array
     ~~~php
       $names = ['sumon', 'sarwar', 'imran'];   //index array
-      $names[0]; //sarwar     
+      $names[0]; //sumon     
       $names = [
         'name1' => 'sumon',
         'name2' => 'sarwar',
@@ -143,7 +143,7 @@ namespace Tofael\HelloWorld;
 //some php code
 ?>
 
-//In 2 cases we keep name HelloWorld. But since we add there app name `Israt` & `Tofael` before So it conflict with each others
+//In 2 cases we keep name HelloWorld. But since we add there app name `Israt` and `Tofael` before So it conflict with each others
 //using 
 <?php
 Use Israt\HelloWorld\Filename;
