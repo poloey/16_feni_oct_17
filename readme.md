@@ -146,8 +146,8 @@ namespace Tofael\HelloWorld;
 //In 2 cases we keep name HelloWorld. But since we add there app name `Israt` and `Tofael` before So it conflict with each others
 //using 
 <?php
-Use Israt\HelloWorld\ClassName;
-Use Tofael\HelloWorld\ClassName;
+Use Israt\HelloWorld\fileName;
+Use Tofael\HelloWorld\fileName;
 ?>
 
 
